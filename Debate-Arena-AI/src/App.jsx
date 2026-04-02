@@ -4,10 +4,11 @@ import About from './pages/about'
 import Contact from './pages/contact'
 const App = () => {
   return (
-    <div className='font-bold text-4xl p-4 m-9'>
+    <div className='font-bold text-4xl'>
+      <div className="box1">
       <Home/>
       <About/>
-      <Contact/>
+      <Contact/></div>
     </div>
   )
 }
